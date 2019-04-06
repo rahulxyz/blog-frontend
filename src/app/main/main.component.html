@@ -1,30 +1,44 @@
-<section class="border border-danger px-3 py-1 mb-2" style='height: 800px'>
-  <div class="container-fluid border border-primary px-3 py-1 h-100">
-    <div class="row border border-default mx-1 my-1 h-100">
+<section class="border border-danger px-3 py-1 mb-2" style='min-height: 800px'>
+  <div class="container-fluid h-100">
+    <div class="row border border-default h-100">
 
       <div class="w-100">
         <p>Main</p>
       </div>
 
       <div class="col-lg-2">
-        <div class="container border border-primary px-3 py-1">
-          <div class="row border border-default mx-1 my-1">
+        <div class="container">
+          <div class="row border border-default">
             <p>left</p>
           </div>
         </div>
       </div>
 
       <div class="col-lg-6 h-100">
-        <div class="container border border-primary px-3 py-1">
-          <div class="row border border-default mx-1 my-1">
-            <p>center</p>
+        <div class="container px-1 py-1">
+          <div class="row mb-2" *ngFor="let item of items">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Title</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Subtitle</h6>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolor vero quasi. Odio ratione
+                  laboriosam voluptatum obcaecati distinctio! Cupiditate, officia!
+                </p>
+                <div class="row justify-content-between mx-1">
+                  <p class="text-muted">Author</p>
+                  <p class="text-muted">Date</p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
 
       <div class="col-lg-4">
-        <div class="container border border-primary px-3 py-1">
-          <div class="row border border-default mx-1 my-1">
+        <div class="container">
+          <div class="row border border-default">
             <p>right</p>
           </div>
         </div>

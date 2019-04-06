@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
 import { AddPostComponent } from './add-post/add-post.component';
 import { PostDetailComponent } from './post-detail/post-detail.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { PostDetailComponent } from './post-detail/post-detail.component';
     MainComponent,
     FooterComponent,
     AddPostComponent,
-    PostDetailComponent
+    PostDetailComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
