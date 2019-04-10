@@ -1,46 +1,124 @@
-<section class="px-3 py-1 mb-2" style='min-height: 800px'>
-  <div class="container-fluid h-100">
-    <div class="row h-100">
+<section class="p-4" id="main">
+  <div class="container px-4 ">
+    <div class="row  ">
 
-      <div class="w-100">
+      <!-- <div class="w-100">
         <p>Main</p>
-      </div>
+      </div> -->
 
-      <div class="col-lg-2">
+      <!-- <div class="col-lg-2">
         <div class="container">
           <div class="row">
             <p>left</p>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="col-lg-6 h-100">
-        <div class="container px-1 py-1">
-          <div class="row mb-2" *ngFor="let item of items">
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">Title</h4>
-                <h6 class="card-subtitle mb-2 text-muted">Subtitle</h6>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolor vero quasi. Odio ratione
-                  laboriosam voluptatum obcaecati distinctio! Cupiditate, officia!
-                </p>
-                <div class="row justify-content-between mx-1">
-                  <p class="text-muted">Author</p>
-                  <p class="text-muted">Date</p>
-                </div>
+      <div class="col-lg-7 ">
+        <div class="row mb-2" *ngFor="let item of items">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Title</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Subtitle</h6>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolor vero quasi. Odio ratione
+                laboriosam voluptatum obcaecati distinctio! Cupiditate, officia!
+              </p>
+              <div class="row justify-content-between mx-1">
+                <p class="text-muted">Author</p>
+                <p class="text-muted">Date</p>
               </div>
             </div>
-
           </div>
+
         </div>
       </div>
 
-      <div class="col-lg-4">
-        <div class="container">
-          <div class="row">
-            <p>right</p>
-          </div>
+      <div class="col-lg-5">
+        <div class="row">
+          <ul>
+            <h2>Recent Posts</h2>
+            <li>
+              <a href=" #" class="text-dark">
+                <div class="row justify-content-between">
+                  <div class="col-4">
+                    <img src="../../assets/img/dawn.jpg" alt="" width="100" height="80">
+                  </div>
+                  <div class="col-6">
+                    <p><strong>Post Title</strong></p>
+                    <p>9 April 2019</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href=" #" class="text-dark">
+                <div class="row justify-content-between">
+                  <div class="col-4">
+                    <img src="../../assets/img/contact.jpg" alt="" width="100" height="80">
+                  </div>
+                  <div class="col-6">
+                    <p><strong>Post Title</strong></p>
+                    <p>9 April 2019</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href=" #" class="text-dark">
+                <div class="row justify-content-between">
+                  <div class="col-4">
+                    <img src="../../assets/img/aeroplane.jpg" alt="" width="100" height="80">
+                  </div>
+                  <div class="col-6">
+                    <p><strong>Post Title</strong></p>
+                    <p>9 April 2019</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href=" #" class="text-dark">
+                <div class="row justify-content-between">
+                  <div class="col-4">
+                    <img src="../../assets/img/bridge.jpg" alt="" width="100" height="80">
+                  </div>
+                  <div class="col-6">
+                    <p><strong>Post Title</strong></p>
+                    <p>9 April 2019</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="row" id="categories">
+          <ul>
+            <h2>Categories</h2>
+            <li>
+              <a href=" #" class="text-dark">Tech</a>
+              <div id="grey-line"></div>
+            </li>
+
+            <li>
+              <a href=" #" class="text-dark">Literature</a>
+              <div id="grey-line"></div>
+            </li>
+
+            <li>
+              <a href=" #" class="text-dark">Nature</a>
+              <div id="grey-line"></div>
+            </li>
+
+            <li>
+              <a href=" #" class="text-dark">Science</a>
+              <div id="grey-line"></div>
+            </li>
+          </ul>
         </div>
       </div>
 
